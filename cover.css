@@ -23,6 +23,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  font-family: 'Architects Daughter', cursive;
 }
 
 .cover-container {
@@ -30,7 +31,6 @@ body {
 }
 h1,h3,a,p {
   color: rgb(58, 54, 54);
-  font-family: 'Architects Daughter', cursive;
 }
 
 /*
