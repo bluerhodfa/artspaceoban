@@ -33,7 +33,6 @@ body {
 h1,h3,a,p {
   color: rgb(58, 54, 54);
 }
-h1 { letter-spacing: -1em; }
 
 /*
  * Header
