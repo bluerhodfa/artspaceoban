@@ -5,7 +5,7 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  /* color: #5a5a5a; */
   font-family: 'Architects Daughter', cursive;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
