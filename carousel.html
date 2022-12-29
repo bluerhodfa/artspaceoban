@@ -8,24 +8,14 @@
     <meta name="generator" content="Hugo 0.104.2">
     <title>Artspace Oban</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+    
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <style>
-      header {
-        width: 100%;
-        height: 100%;
-        background: url(images/ArtspaceObanLogo.png) center center no-repeat;
-        background-size: cover;
-      }
-      h1,h3,a,p {
-        color: rgb(58, 54, 54);
-      }
-
-      #main {
-        overflow:auto;
-        padding-bottom:150px; /* this needs to be bigger than footer height*/
-      }
-
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -76,22 +66,29 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+
+      /* Local changes */
+      /* text colours */
+      h1,p,a {
+        color: rgb(58,54,54);
+      }
     </style>
 
     
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
-    <style> @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); </style> 
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap'); 
+    </style>
   </head>
-  <body class="d-flex flex-column h-100">
+  <body>
     
 <header>
-  <nav class="navbar navbar-expand-md fixed-top">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="images/ArtspaceObanHeader.png" alt="Logo" width="150" height="30" class="d-inline-block align-text-top">
-        Artspace Oban
-      </a>
+        Artspace Oban</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -101,18 +98,17 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="mailto:artspaceoban@gmail.com?Subject=Contact%20from%20artspace%20Oban&Body=Hello Artspace Oban">Contact</a>
+            <a class="nav-link" href="mailto:artspaceoban@gmail.com?Subject=Contact%20from%20artspace%20Oban&amp;Body=Hello Artspace Oban">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 </header>
-   <!-- Begin page content -->
 
 <main>
 
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -120,32 +116,33 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/ArtspaceObanHeader.png" class="d-block w-100" alt="Artspace Oban Logo">
+        <img src="images/ArtspaceObanHeader.png" class="d-block w-100" width="100%" height=100%" alt="Artspace Oban Logo">
         <div class="container">
           <div class="carousel-caption text-start">
             <h1 class="display-1">Artspace Oban</h1>
-            <h1 class="display-6">studios for artists and makers</h1>
+            <h1 class="display-6">studios for artists and makers</p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#fff"/></svg>
+
         <div class="container">
           <div class="carousel-caption text-start">
             <h1>Deborah Gray</h1>
             <p>Textile artist</p>
-            <p><a class="btn btn-lg btn-light" href="https://www.deborahgraytextiles.co.uk"  target="_blank">Visit my website</a></p>
+            <p><a class="btn btn-lg btn-light" href="https://www.deborahgraytextiles.co.uk" target="_blank">Visit my website</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="images/flightoftheoystercatchers.png" class="d-block w-100" alt="Flight of the Oystercatchers">
+        <img src="images/pastel_otter_1950x500 header image.png" class="d-block w-100"  height="100%" alt="Artspace Oban Logo">
 
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1 class="text-bg-light">Ira Theobold</h1>
-            <p class="text-bg-light">Working in traditional and digital art</article></article></p>
-            <p><a class="btn btn-lg btn-light" href="http://iratheobold.art"  target="_blank">Visit my website</a></p>
+            <h1 class="text-light">Ira Theobold</h1>
+            <p class="text-light">Working in traditional and digital media</p>
+            <p><a class="btn btn-lg btn-light" href="http://iratheobold.art" target="_blank">Visit my website</a></p>
           </div>
         </div>
       </div>
@@ -160,10 +157,13 @@
     </button>
   </div>
 
+  </div><!-- /.container -->
+
+
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Artspace Oban, All rights reserved <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; <script>document.write(new Date().getFullYear())</script> Artspace Oban, all rights reserved</p>
   </footer>
 </main>
 
