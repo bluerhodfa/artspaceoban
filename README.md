@@ -1,3 +1,8 @@
 # artspaceoban
 
-Holding page for Artspace Oban artists collaboration
+
+Artspace Oban
+
+studios got artists and makers
+
+Find us at www.artspaceoban.co.uk
