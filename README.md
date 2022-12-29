@@ -3,6 +3,6 @@
 
 Artspace Oban
 
-studios got artists and makers
+studios for artists and makers
 
 Find us at www.artspaceoban.co.uk
